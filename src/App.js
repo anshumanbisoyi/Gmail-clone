@@ -1,12 +1,16 @@
-import React from 'react'
-import Signin from './components/Signin'
+import React from "react";
+import Signin from "./components/Signin";
+import Navbar from "./components/Navbar";
+import Main from "./components/Main";
 
 function App() {
   return (
     <div>
-    <Signin />
+      {/* <Signin /> */}
+      {/* <Navbar /> */}
+      <Main/>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
