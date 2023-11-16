@@ -19,6 +19,7 @@ function Leftpanel() {
     >
       <div
         style={{
+          height: "4.5vw",
           marginLeft: "1vw",
           width: "12vw",
           display: "flex",

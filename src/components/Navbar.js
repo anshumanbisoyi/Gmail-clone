@@ -56,22 +56,21 @@ export default function Navbar() {
             <Grid item sx={8}>
               <div
                 style={{
-                  marginLeft: "3vw",
+                  marginLeft: "4vw",
                   display: "flex",
                   alignItems: "center",
                   borderRadius: "40px",
                   backgroundColor: "#E4EFFA",
                   width: "55vw",
                   height: "3.7vw",
-                  marginLeft: "10vw",
                 }}
               >
                 <img
                   alt="lens-img"
                   src={lens}
                   style={{
-                    width: "1.6vw",
-                    height: "1.6vw",
+                    width: "1.3vw",
+                    height: "1.3vw",
                     alignItems: "center",
                     marginLeft: "15px",
                   }}
@@ -84,7 +83,8 @@ export default function Navbar() {
                     backgroundColor: "#E4EFFA",
                     border: "none",
                     borderRadius: "30px",
-                    marginLeft: "3vw",
+                    marginLeft: "1vw",
+                    fontSize:"1vw",
                   }}
                 />
               </div>
