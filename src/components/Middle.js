@@ -24,33 +24,31 @@ function Middle() {
           marginTop: "1.5vw",
         }}
       >
-        <List>
-          <ListItem>
-            <img
-              src={start}
-              alt="star"
-              style={{ width: "1.4vw", height: "1.4vw" }}
-            />
+        <ListItem>
+          <img
+            src={start}
+            alt="star"
+            style={{ width: "1.4vw", height: "1.4vw" }}
+          />
+          <span
+            style={{
+              fontSize: "1.1vw",
+              marginLeft: "1.2vw",
+              fontWeight: "500",
+            }}
+          >
+            hgdjsfsdbgsjdbg
             <span
               style={{
-                fontSize: "1.1vw",
-                marginLeft: "1.2vw",
-                fontWeight: "500",
+                fontSize: "1vw",
+                marginLeft: "12vw",
+                fontWeight: "200",
               }}
             >
-              hgdjsfsdbgsjdbg
-              <span
-                style={{
-                  fontSize: "1vw",
-                  marginLeft: "12vw",
-                  fontWeight: "200",
-                }}
-              >
-                safejg
-              </span>
+              safejg
             </span>
-          </ListItem>
-        </List>
+          </span>
+        </ListItem>
       </Paper>
       <Paper
         elevation={0}
@@ -60,33 +58,31 @@ function Middle() {
           borderBottom: "1px solid lightgrey",
         }}
       >
-        <List>
-          <ListItem>
-            <img
-              src={start}
-              alt="star"
-              style={{ width: "1.4vw", height: "1.4vw" }}
-            />
+        <ListItem>
+          <img
+            src={start}
+            alt="star"
+            style={{ width: "1.4vw", height: "1.4vw" }}
+          />
+          <span
+            style={{
+              fontSize: "1.1vw",
+              marginLeft: "1.2vw",
+              fontWeight: "500",
+            }}
+          >
+            hgdjsfsdbgsjdbg
             <span
               style={{
-                fontSize: "1.1vw",
-                marginLeft: "1.2vw",
-                fontWeight: "500",
+                fontSize: "1vw",
+                marginLeft: "12vw",
+                fontWeight: "200",
               }}
             >
-              hgdjsfsdbgsjdbg
-              <span
-                style={{
-                  fontSize: "1vw",
-                  marginLeft: "12vw",
-                  fontWeight: "200",
-                }}
-              >
-                safejg
-              </span>
+              safejg
             </span>
-          </ListItem>
-        </List>
+          </span>
+        </ListItem>
       </Paper>
       <Paper
         elevation={0}
@@ -96,33 +92,31 @@ function Middle() {
           borderBottom: "1px solid lightgrey",
         }}
       >
-        <List>
-          <ListItem>
-            <img
-              src={start}
-              alt="star"
-              style={{ width: "1.4vw", height: "1.4vw" }}
-            />
+        <ListItem>
+          <img
+            src={start}
+            alt="star"
+            style={{ width: "1.4vw", height: "1.4vw" }}
+          />
+          <span
+            style={{
+              fontSize: "1.1vw",
+              marginLeft: "1.2vw",
+              fontWeight: "500",
+            }}
+          >
+            hgdjsfsdbgsjdbg
             <span
               style={{
-                fontSize: "1.1vw",
-                marginLeft: "1.2vw",
-                fontWeight: "500",
+                fontSize: "1vw",
+                marginLeft: "12vw",
+                fontWeight: "200",
               }}
             >
-              hgdjsfsdbgsjdbg
-              <span
-                style={{
-                  fontSize: "1vw",
-                  marginLeft: "12vw",
-                  fontWeight: "200",
-                }}
-              >
-                safejg
-              </span>
+              safejg
             </span>
-          </ListItem>
-        </List>
+          </span>
+        </ListItem>
       </Paper>
       <Paper
         elevation={0}
@@ -132,33 +126,99 @@ function Middle() {
           borderBottom: "1px solid lightgrey",
         }}
       >
-        <List>
-          <ListItem>
-            <img
-              src={start}
-              alt="star"
-              style={{ width: "1.4vw", height: "1.4vw" }}
-            />
+        <ListItem>
+          <img
+            src={start}
+            alt="star"
+            style={{ width: "1.4vw", height: "1.4vw" }}
+          />
+          <span
+            style={{
+              fontSize: "1.1vw",
+              marginLeft: "1.2vw",
+              fontWeight: "500",
+            }}
+          >
+            hgdjsfsdbgsjdbg
             <span
               style={{
-                fontSize: "1.1vw",
-                marginLeft: "1.2vw",
-                fontWeight: "500",
+                fontSize: "1vw",
+                marginLeft: "12vw",
+                fontWeight: "200",
               }}
             >
-              hgdjsfsdbgsjdbg
-              <span
-                style={{
-                  fontSize: "1vw",
-                  marginLeft: "12vw",
-                  fontWeight: "200",
-                }}
-              >
-                safejg
-              </span>
+              safejg
             </span>
-          </ListItem>
-        </List>
+          </span>
+        </ListItem>
+      </Paper>
+      <Paper
+        elevation={0}
+        style={{
+          backgroundColor: "#F8FCFF",
+          borderTop: "1px solid lightgrey",
+          borderBottom: "1px solid lightgrey",
+        }}
+      >
+        <ListItem>
+          <img
+            src={start}
+            alt="star"
+            style={{ width: "1.4vw", height: "1.4vw" }}
+          />
+          <span
+            style={{
+              fontSize: "1.1vw",
+              marginLeft: "1.2vw",
+              fontWeight: "500",
+            }}
+          >
+            hgdjsfsdbgsjdbg
+            <span
+              style={{
+                fontSize: "1vw",
+                marginLeft: "12vw",
+                fontWeight: "200",
+              }}
+            >
+              safejg
+            </span>
+          </span>
+        </ListItem>
+      </Paper>
+      <Paper
+        elevation={0}
+        style={{
+          backgroundColor: "#F8FCFF",
+          borderTop: "1px solid lightgrey",
+          borderBottom: "1px solid lightgrey",
+        }}
+      >
+        <ListItem>
+          <img
+            src={start}
+            alt="star"
+            style={{ width: "1.4vw", height: "1.4vw" }}
+          />
+          <span
+            style={{
+              fontSize: "1.1vw",
+              marginLeft: "1.2vw",
+              fontWeight: "500",
+            }}
+          >
+            hgdjsfsdbgsjdbg
+            <span
+              style={{
+                fontSize: "1vw",
+                marginLeft: "12vw",
+                fontWeight: "200",
+              }}
+            >
+              safejg
+            </span>
+          </span>
+        </ListItem>
       </Paper>
     </div>
   );

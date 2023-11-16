@@ -1,14 +1,15 @@
 import React from "react";
 import Signin from "./components/Signin";
-import Navbar from "./components/Navbar";
 import Main from "./components/Main";
+import {Routes,Route } from 'react-router-dom';
 
 function App() {
   return (
     <div>
-      {/* <Signin /> */}
-      {/* <Navbar /> */}
-      <Main/>
+    <Routes>
+      <Route path='/' element={<Signin />}/>
+      <Route path='/main' element={<Main/>}/>
+    </Routes>
     </div>
   );
 }
