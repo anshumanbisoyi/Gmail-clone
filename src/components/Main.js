@@ -10,7 +10,7 @@ function Main() {
         <Grid item xs={12}>
         <Navbar/>
         </Grid>
-        <Grid item xs={2}>
+        <Grid item xs={2.5}>
         <Leftpanel/>
         </Grid>
 

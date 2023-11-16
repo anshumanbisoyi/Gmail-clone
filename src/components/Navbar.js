@@ -34,17 +34,17 @@ export default function Navbar() {
                   edge="start"
                   color="inherit"
                   aria-label="menu"
-                  sx={{ mr: "2vw", color: "#3C3C3C" }}
+                  sx={{ mr: "0.8vw", color: "#3C3C3C" }}
                 >
                   <MenuIcon sx={{ width: "2vw" }} />
                 </IconButton>
                 <img
                   alt="gmail-logo"
-                  style={{ width: "2vw" }}
+                  style={{ width: "2.3vw" }}
                   src={GmailLogo}
                 />
                 <Typography
-                  sx={{ marginLeft: "1vw", fontSize: "1.6vw" }}
+                  sx={{ marginLeft: "1vw", fontSize: "1.8vw" }}
                   variant="h6"
                   color="#3C3C3C"
                   component="div"
