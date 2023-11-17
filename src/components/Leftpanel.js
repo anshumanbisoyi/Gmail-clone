@@ -38,9 +38,9 @@ function Leftpanel() {
           display: "flex",
           alignItems: "center",
           backgroundColor: "#D0DEF9",
-          padding: "5px",
+          // padding: "5px",
           paddingRight: "15px",
-          paddingLeft: "10px",
+          paddingLeft: "13px",
           borderTopRightRadius: "15px",
           borderBottomRightRadius: "15px",
         }}

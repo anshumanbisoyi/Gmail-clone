@@ -6,6 +6,8 @@ import MoreVertIcon from "@mui/icons-material/MoreVert";
 import InboxIcon from "@mui/icons-material/Inbox";
 import SellOutlinedIcon from "@mui/icons-material/SellOutlined";
 import PeopleAltOutlinedIcon from "@mui/icons-material/PeopleAltOutlined";
+import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
+import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 
 function Middle(props) {
   const menuState = props.menu;
@@ -44,6 +46,12 @@ function Middle(props) {
           marginBottom: "0.5vw",
         }}
       />
+      <span style={{ marginLeft: "65vw", fontSize: "0.8vw", marginBottom:"1vw" }}>
+        1-50 of 711 &nbsp;
+      </span>
+        {/* <KeyboardArrowLeftIcon sx={{ width: "1.3vw", marginTop: "10px", border:"1px red solid" }} />
+        <KeyboardArrowRightIcon sx={{ width: "1.3vw", paddingTop: "10px", marginLeft:"1vw" }} /> */}
+      
       <br />
       <Button
         variant="text"
@@ -93,7 +101,7 @@ function Middle(props) {
           borderBottomLeftRadius: "0px",
           borderBottomRightRadius: "0px",
           // color: "#E2AF31",
-          color:"grey",
+          color: "grey",
           paddingRight: "6.2vw",
         }}
       >
