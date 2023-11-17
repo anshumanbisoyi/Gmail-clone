@@ -20,7 +20,7 @@ function Main() {
           <Navbar menu={menu} handleMenu={handleMenu} />
         </Grid>
         <Grid item xs={2}>
-         {menu? (<Leftpanel/>):(<LeftPanelShrinked/>)} 
+         {menu? (<LeftPanelShrinked/>):(<Leftpanel/>)} 
         </Grid>
         <Grid item xs={9}>
           <Middle menu={menu} />

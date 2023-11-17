@@ -14,8 +14,8 @@ function Middle(props) {
   return (
     <div
       style={{
-        marginLeft: menuState ? "0vw" : "-10vw",
-        width: menuState ? "81vw" : "90vw",
+        marginLeft: menuState ? "-10vw" : "0vw",
+        width: menuState ? "90vw" : "81vw",
         paddingTop: "6vw",
       }}
     >
