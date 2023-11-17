@@ -7,43 +7,20 @@ import star from "../images/star.png";
 import InsertDriveFileOutlinedIcon from "@mui/icons-material/InsertDriveFileOutlined";
 import InboxIcon from "@mui/icons-material/Inbox";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import Message from "./Message";
 
 function Leftpanel() {
   return (
     <div
       style={{
+        position: "fixed",
         backgroundColor: "#F9F9F9",
         minHeight: "100vh",
-        paddingTop: "1vw",
+        paddingTop: "6vw",
+        width: "15vw",
       }}
     >
-      <div
-        style={{
-          height: "4.5vw",
-          marginLeft: "1vw",
-          width: "12vw",
-          display: "flex",
-          alignItems: "center",
-          borderRadius: "20px",
-          backgroundColor: "#BEE0FF",
-        }}
-      >
-        <img
-          alt="pen-img"
-          src={pen}
-          style={{ width: "1.2vw", marginLeft: "2vw" }}
-        />
-        <h4
-          style={{
-            marginLeft: "1vw",
-            marginRight: "1.6vw",
-            fontWeight: "400",
-            fontSize: "1vw",
-          }}
-        >
-          Compose
-        </h4>
-      </div>
+      <Message />
       <div
         style={{
           marginTop: "1vw",

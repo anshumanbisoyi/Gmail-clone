@@ -9,6 +9,10 @@ import GmailLogo from "../images/gmaillogo.png";
 import { Avatar, Grid } from "@mui/material";
 import lens from "../images/lens.png";
 import { auth } from "../firebase/setup";
+import Profile from "./Profile";
+import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
+import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
+import AppsIcon from "@mui/icons-material/Apps";
 
 export default function Navbar() {
   return (
@@ -18,6 +22,7 @@ export default function Navbar() {
           elevation={0}
           position="static"
           sx={{
+            position: "fixed",
             top: "0",
             zIndex: "2",
             backgroundColor: "#F9F9F9",
@@ -27,14 +32,14 @@ export default function Navbar() {
             paddingRight: "30px",
           }}
         >
-          <Toolbar variant="dense">
-            <Grid item sx={2}>
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <Grid item xs={2}>
               <div style={{ display: "flex", alignItems: "center" }}>
                 <IconButton
                   edge="start"
                   color="inherit"
                   aria-label="menu"
-                  sx={{ mr: "0.8vw", color: "#3C3C3C" }}
+                  sx={{ mr: "0.8vw", color: "#3C3C3C", marginLeft: "1vw" }}
                 >
                   <MenuIcon sx={{ width: "2vw" }} />
                 </IconButton>
@@ -53,10 +58,10 @@ export default function Navbar() {
                 </Typography>
               </div>
             </Grid>
-            <Grid item sx={8}>
+            <Grid item xs={8}>
               <div
                 style={{
-                  marginLeft: "4vw",
+                  marginLeft: "3vw",
                   display: "flex",
                   alignItems: "center",
                   borderRadius: "40px",
@@ -84,18 +89,47 @@ export default function Navbar() {
                     border: "none",
                     borderRadius: "30px",
                     marginLeft: "1vw",
-                    fontSize:"1vw",
+                    fontSize: "1vw",
                   }}
                 />
               </div>
             </Grid>
-            <Grid item sx={1}>
-              <Avatar
-                sx={{ marginLeft: "10.5vw" }}
-                src={auth.currentUser?.photoURL}
+            <Grid item xs={4}>
+              <HelpOutlineIcon
+                sx={{
+                  width: "1.8vw",
+                  height: "1.8vw",
+                  alignItems: "center",
+                  marginLeft: "14.5vw",
+                  color: "grey",
+                //   paddingLeft: "0px",
+                }}
+              />
+              <SettingsOutlinedIcon
+                sx={{
+                  width: "1.8vw",
+                  height: "1.8vw",
+                  alignItems: "center",
+                  marginLeft: "0.5vw",
+                  color: "grey",
+                //   paddingLeft: "10px",
+                }}
+              />
+              <AppsIcon
+                sx={{
+                  width: "1.8vw",
+                  height: "1.8vw",
+                  alignItems: "center",
+                  marginLeft: "0.5vw",
+                  color: "grey",
+                //   paddingLeft: "10px",
+                }}
               />
             </Grid>
-          </Toolbar>
+            <Grid item xs={1}>
+              <Profile />
+            </Grid>
+          </div>
         </AppBar>
       </Box>
     </Grid>

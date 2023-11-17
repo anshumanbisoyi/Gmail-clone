@@ -1,8 +1,10 @@
-import { Grid } from '@mui/material'
-import React from 'react'
-import Leftpanel from './Leftpanel'
-import Navbar from './Navbar'
-import Middle from './Middle'
+import { Grid } from "@mui/material";
+import React from "react";
+import Leftpanel from "./Leftpanel";
+import Navbar from "./Navbar";
+import Middle from "./Middle";
+import RightPanel from "./Rightpanell";
+import Footer from "./Footer";
 
 function Main() {
   return (
@@ -14,12 +16,18 @@ function Main() {
         <Grid item xs={2}>
           <Leftpanel />
         </Grid>
-        <Grid item xs={1}>
+        <Grid item xs={9}>
           <Middle />
+        </Grid>
+        <Grid item xs={1}>
+          <RightPanel />
+        </Grid>
+        <Grid item xs={12}>
+          <Footer/>
         </Grid>
       </Grid>
     </div>
   );
 }
 
-export default Main
+export default Main;
