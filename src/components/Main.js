@@ -5,25 +5,31 @@ import Navbar from "./Navbar";
 import Middle from "./Middle";
 import RightPanel from "./Rightpanell";
 import Footer from "./Footer";
+import LeftPanelShrinked from "./LeftPanelShrinked";
 
 function Main() {
+   const [menu, setMenu] = React.useState(false);
+   const handleMenu = () => {
+     setMenu(!menu);
+     console.log(menu);
+   };
   return (
     <div>
       <Grid container>
         <Grid item xs={12}>
-          <Navbar />
+          <Navbar menu={menu} handleMenu={handleMenu} />
         </Grid>
         <Grid item xs={2}>
-          <Leftpanel />
+         {menu? (<Leftpanel/>):(<LeftPanelShrinked/>)} 
         </Grid>
         <Grid item xs={9}>
-          <Middle />
+          <Middle menu={menu} />
         </Grid>
         <Grid item xs={1}>
           <RightPanel />
         </Grid>
         <Grid item xs={12}>
-          <Footer/>
+          <Footer />
         </Grid>
       </Grid>
     </div>

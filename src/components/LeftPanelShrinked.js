@@ -6,6 +6,7 @@ import InsertDriveFileOutlinedIcon from "@mui/icons-material/InsertDriveFileOutl
 import InboxIcon from "@mui/icons-material/Inbox";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import Message from "./Message";
+import pen from "../images/pen.png";
 
 function Leftpanel() {
   return (
@@ -15,10 +16,27 @@ function Leftpanel() {
         backgroundColor: "#F9F9F9",
         minHeight: "100vh",
         paddingTop: "6vw",
-        width: "15vw",
+        width: "6vw",
       }}
     >
-      <Message />
+      <div
+        style={{
+          cursor: "pointer",
+          marginLeft: "1.2vw",
+          width: "4vw",
+          height: "4vw",
+          display: "flex",
+          alignItems: "center",
+          borderRadius: "20px",
+          backgroundColor: "#BEE0FF",
+        }}
+      >
+        <img
+          alt="pen-img"
+          src={pen}
+          style={{ width: "1.2vw", marginLeft: "1.4vw" }}
+        />
+      </div>
       <div
         style={{
           marginTop: "1vw",
@@ -36,9 +54,7 @@ function Leftpanel() {
             fontWeight: "400",
             fontSize: "1vw",
           }}
-        >
-          Inbox
-        </span>
+        ></span>
       </div>
       <div
         style={{
@@ -61,9 +77,7 @@ function Leftpanel() {
             fontWeight: "400",
             fontSize: "1vw",
           }}
-        >
-          Starred
-        </span>
+        ></span>
       </div>
       <div
         style={{
@@ -86,9 +100,7 @@ function Leftpanel() {
             fontWeight: "400",
             fontSize: "1vw",
           }}
-        >
-          Snoozed
-        </span>
+        ></span>
       </div>
       <div
         style={{
@@ -111,9 +123,7 @@ function Leftpanel() {
             fontWeight: "400",
             fontSize: "1vw",
           }}
-        >
-          Sent
-        </span>
+        ></span>
       </div>
       <div
         style={{
@@ -134,9 +144,7 @@ function Leftpanel() {
             fontWeight: "400",
             fontSize: "1vw",
           }}
-        >
-          Drafts
-        </span>
+        ></span>
       </div>
       <div
         style={{
@@ -155,9 +163,7 @@ function Leftpanel() {
             fontWeight: "400",
             fontSize: "1vw",
           }}
-        >
-          More
-        </span>
+        ></span>
       </div>
     </div>
   );

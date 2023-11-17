@@ -4,9 +4,10 @@ import start from "../images/star.png";
 import RefreshIcon from "@mui/icons-material/Refresh";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 
-function Middle() {
+function Middle(props) {
+  const menuState = props.menu;
   return (
-    <div style={{ marginLeft: "0vw", width: "81vw", paddingTop: "6vw" }}>
+    <div style={{  marginLeft: menuState ? "0vw" : "-10vw", width: menuState ? "81vw" : "90vw", paddingTop: "6vw" }}>
       <Checkbox
         sx={{
           width: "1.5vw",

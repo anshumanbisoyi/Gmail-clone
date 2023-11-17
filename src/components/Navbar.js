@@ -13,8 +13,11 @@ import Profile from "./Profile";
 import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 import AppsIcon from "@mui/icons-material/Apps";
+import Main from "./Main.js";
 
-export default function Navbar() {
+export default function Navbar(props) {
+ const menuState = props.menu;
+ const handleMenu = props.handleMenu;
   return (
     <Grid container>
       <Box sx={{ flexGrow: 1 }}>
@@ -36,6 +39,7 @@ export default function Navbar() {
             <Grid item xs={2}>
               <div style={{ display: "flex", alignItems: "center" }}>
                 <IconButton
+                  onClick={handleMenu}
                   edge="start"
                   color="inherit"
                   aria-label="menu"
